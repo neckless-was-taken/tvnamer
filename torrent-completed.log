@@ -1,0 +1,7 @@
+2023-12-04 17:26:19,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-04 17:26:19,781 - INFO - ChatGPT response: {'Name': 'Adobe Photoshop 2024', 'Year': 2024, 'Category': 'Software'}
+2023-12-04 17:26:19,781 - INFO - Torrent 'Adobe Photoshop 2024 25.1.0.120 RePack by KpoJIuK.exe' successfully downloaded and managed!
+2023-12-04 17:36:45,060 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-04 17:36:45,107 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
+2023-12-04 17:38:43,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-04 17:38:43,786 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
