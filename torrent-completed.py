@@ -38,12 +38,12 @@ def chatgpt(prompt):
             modelReply = json.loads(chat_completion.choices[0].message.content)
             logging.info(f'ChatGPT response: {modelReply}')
             modelReply = {k.lower(): v for k, v in modelReply.items()}
-            if str(apiReply.get('name')) == None:
-                apiReply['category'] = 'None'
-            if str(apiReply.get('year')) == None:
-                apiReply['category'] = 'None'
-            if str(apiReply.get('category')) == None:
-                apiReply['category'] = 'None'
+            if str(modelReply.get('name')) == None:
+                modelReply['category'] = 'None'
+            if str(modelReply.get('year')) == None:
+                modelReply['category'] = 'None'
+            if str(modelReply.get('category')) == None:
+                modelReply['category'] = 'None'
             return modelReply
         except json.JSONDecodeError:
             if i == 1:
@@ -56,6 +56,7 @@ def chatgpt(prompt):
 def TVMover(torrentPath):
     print(torrentPath)
     os.system(f'tvnamer --config=/srv/maven/scripts/tvnamer/config.json --move --recursive --batch "{torrentPath}"')
+    # replace sys.exit() with an exit function that cleans left over files
     sys.exit()
 
 def MovieMover(newName):
@@ -68,12 +69,15 @@ def MovieMover(newName):
     except FileExistsError:
         logging.error(f'Folder {os.path.join(destinationFolder, newName)} already exists')
         raise FileExistsError(f'Folder {os.path.join(destinationFolder, newName)} already exists')
+    # replace sys.exit() with an exit function that cleans left over files
     sys.exit()
 
 def OtherMover():
     logging.debug('OtherMover not yet set up smiley face :)')
+    # replace sys.exit() with an exit function that cleans left over files
     sys.exit()
 
+# NEEDS REWRITE
 if len(sys.argv) != 4:
     logging.debug(f'Unexpected amount of arguments were passed')
     torrentPath = max(glob(os.path.join(torrentSource, '*/')), key=os.path.getmtime)

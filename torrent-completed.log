@@ -5,3 +5,43 @@
 2023-12-04 17:36:45,107 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
 2023-12-04 17:38:43,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2023-12-04 17:38:43,786 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
+2023-12-21 17:55:32,344 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-21 17:55:32,401 - INFO - ChatGPT response: {'Name': 'Oceans Eleven', 'Year': '2001'}
+2023-12-21 18:02:48,595 - ERROR - No suitable video files was found!
+2023-12-21 18:03:16,403 - ERROR - No suitable video files was found!
+2023-12-21 18:03:36,486 - ERROR - No suitable video files was found!
+2023-12-21 18:06:33,434 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-21 18:06:33,441 - INFO - ChatGPT response: {'Name': 'Oceans Eleven', 'Year': '2001'}
+2023-12-21 18:07:59,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-21 18:07:59,674 - INFO - ChatGPT response: {'Name': 'Oceans Eleven', 'Year': '2001'}
+2023-12-21 18:09:58,697 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-21 18:09:58,701 - INFO - ChatGPT response: {'Name': 'Oceans Eleven', 'Year': '2001'}
+2023-12-23 22:49:05,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-23 22:49:05,861 - INFO - ChatGPT response: {'Name': 'Oceans Thirteen', 'Year': '2007'}
+2023-12-23 22:57:33,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-23 22:57:33,801 - INFO - ChatGPT response: {'Name': "Ocean's Twelve", 'Year': '2004'}
+2023-12-29 16:45:19,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-29 16:45:19,640 - INFO - ChatGPT response: {'Name': 'Top Gun Maverick', 'Year': '2022'}
+2023-12-30 20:51:09,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-30 20:51:09,920 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
+2023-12-30 20:51:09,921 - INFO - Torrent 'Outer Wilds: Archaeologist Edition (v1.1.10 + DLC + Bonus OST, MULTi12) [FitGirl Repack, Selective Download - from 2.3 GB]' successfully downloaded and managed!
+2023-12-30 20:59:37,653 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2023-12-30 20:59:37,674 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
+2023-12-30 20:59:37,674 - INFO - Torrent 'SIFU: Digital Deluxe Edition (v1.26.6.660 + 3 DLCs/Bonuses, MULTi14) [FitGirl Repack, Selective Download - from 8 GB]' successfully downloaded and managed!
+2024-01-09 13:08:22,306 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-09 13:08:22,375 - INFO - ChatGPT response: {'Name': 'The Terminal', 'Year': '2004'}
+2024-01-09 15:26:53,743 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-09 15:26:53,789 - INFO - ChatGPT response: {'Name': None, 'Year': None}
+2024-01-12 23:47:09,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-12 23:47:09,153 - INFO - ChatGPT response: {'Name': None, 'Year': None, 'Category': None}
+2024-01-12 23:47:09,153 - INFO - Torrent 'F1 22: Champions Edition (Denuvoless v1.05 + 5 DLCs, MULTi11) [FitGirl Repack, Selective Download - from 23.3 GB]' successfully downloaded and managed!
+2024-01-18 15:58:15,124 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-18 15:58:15,147 - INFO - ChatGPT response: {'Name': 'Minority Report', 'Year': '2002'}
+2024-01-19 18:43:46,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-19 18:43:46,640 - INFO - ChatGPT response: {'Name': 'No Hard Feelings', 'Year': '2023'}
+2024-01-19 18:46:29,135 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-19 18:46:29,141 - INFO - ChatGPT response: {'Name': "A Bug's Life", 'Year': '1998'}
+2024-01-19 18:48:03,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-19 18:48:03,792 - INFO - ChatGPT response: {'Name': 'The Notebook', 'Year': '2004'}
+2024-01-19 22:46:19,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-01-19 22:46:19,069 - INFO - ChatGPT response: {'Name': None, 'Year': None}
